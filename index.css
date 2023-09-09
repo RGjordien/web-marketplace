@@ -1,0 +1,136 @@
+.nav-link{
+    color: white !important;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.header{
+    width: 100%;
+    background-color: brown;
+}
+
+.hero{
+    height: 600px;
+    background-size: cover;
+    background-image: url("img/hero.jpg");
+    text-align: center;
+    padding: 200px;
+}
+
+.hero h1{
+    color: white;
+    font-size: 40px;
+}
+
+.hero p{
+    color: black;
+    font-size: 20px;
+}
+
+.hero a{
+    text-decoration: none;
+    color: white;
+    background-color: forestgreen;
+    border-radius: 13px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.hero a:hover {
+    background-color: rgb(31, 150, 31);
+    color: white;
+    text-align: center;
+}
+
+.katalog{
+    background-color: gray;
+    height: 280px;
+    width: 200px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.nama{
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.katalog img{
+    height: 150px;
+    width: 200px;
+}
+
+.price{
+    color: black;
+    font-size: 13px;
+    margin-top: -15px;
+    font-weight: 400;   
+}
+
+.katalog a{
+    text-decoration: none;
+    color: white;
+    background-color: forestgreen;
+    border-radius: 13px;
+    font-size: 9px;
+    padding: 10px;
+}
+
+.katalog a:hover {
+    background-color: rgb(31, 150, 31);
+    color: white;
+}
+
+.menu_product{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.footer{
+    text-align: center;
+    padding: 12px;
+    color: white;
+    background-color: brown;
+}
+
+@media screen and (max-width: 768px) {
+    .katalog{
+        width: 150px;
+        height: 270px;
+    }
+
+    .katalog img{
+        width: 150px;
+        height: 120px;
+    }
+
+    .hero{
+        height: 400px;
+        padding: 50px;
+    }
+
+    .hero h1{
+        color: white;
+        font-size: 20px;
+    }
+    
+    .hero p{
+        color: black;
+        font-size: 10px;
+    }
+    
+    .hero a{
+        text-decoration: none;
+        color: white;
+        background-color: forestgreen;
+        border-radius: 13px;
+        font-size: 7px;
+        padding: 10px;
+    }
+}
